@@ -1,119 +1,92 @@
 <!DOCTYPE html>
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: "Verdana", sans-serif;
-    font-size: 16px;
-}
+<html lang="pl">
+<head>
+    <title>Moje Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<aside>
+    <div class="my-photo">
+        <img src="./images/user.png" alt="Daniel Papiński"/>
+    </div>
 
-aside {
-    position: fixed;
-    width: 25%;
-    height: 100%;
-    padding-top: 15px;
-    background-color: green;
-    color: #fff;
-    text-align: center;
-}
+    <h1>Daniel Papiński</h1>
+    <hr/>
 
-hr {
-    color: #fff;
-}
+    <nav>
+        <ul>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#realizacje">Realizacje</a></li>
+            <li><a href="#plany">Plany na przyszłość</a></li>
+        </ul>
+    </nav>
+</aside>
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+<main>
+    <article id="o-mnie">
+        <h2>O Mnie</h2>
 
-nav li {
-    margin: 8px 0;
-}
+        <blockquote cite="https://www.cytaty.info/cytaty.htm">
+            <p>
+                Do sukcesu nie ma windy, trzeba wejść schodami.<br/>
+            </p>
+            <p class="author">- Andrzej Piaseczny</p>
+        </blockquote>
 
-nav a {
-    display: block;
-    padding: 8px 0;
-    color: #fff;
-    text-decoration: none;
-}
+        <details open>
+            <summary>
+                Twórca
+            </summary>
+            <div>
+                Daniel Papiński
+            </div>
+        </details>
 
-nav a:hover {
-    background-color: #fff;
-    color: #000;
-}
+        <details>
+            <summary>
+                Wykształcenie:
+            </summary>
+            <div>
+                <ol>
+                    <li>KSP (kolegium szkół Prywatnych)</li>
+                </ol>
+            </div>
+        </details>
 
-main {
-    padding-left: calc(25% + 15px);
-    padding-right: 15px;
-}
+        <details>
+            <summary>
+                Kontakt
+            </summary>
+            <div>
+                <a href="mailto:poczta-Danio0@onet.pl">poczta-Danio0@onet.pl</a>
+            </div>
+        </details>
+    </article>
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
+    <article id="realizacje">
+        <h2>Realizacje</h2>
 
-article {
-    padding: 15px 0;
-}
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor in felis sed vehicula. In bibendum
+            hendrerit felis, eget pellentesque purus. Nulla ut mi eget libero aliquet feugiat in a leo. Maecenas id
+            sapien posuere, mattis risus nec, sollicitudin tortor. Quisque felis diam, ultricies vulputate orci at,
+            consectetur lacinia tortor. Cras gravida sed metus at bibendum. In vitae ultricies ex. In sit amet nulla
+            ipsum. Pellentesque mi lacus, eleifend sed sapien eget, interdum feugiat sapien.</p>
+    </article>
 
-article > h2 {
-    margin-bottom: 16px;
-}
+    <article id="plany">
+        <h2>Plany</h2>
 
-.my-photo {
-    text-align: center;
-}
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor in felis sed vehicula. In bibendum
+            hendrerit felis, eget pellentesque purus. Nulla ut mi eget libero aliquet feugiat in a leo. Maecenas id
+            sapien posuere, mattis risus nec, sollicitudin tortor. Quisque felis diam, ultricies vulputate orci at,
+            consectetur lacinia tortor. Cras gravida sed metus at bibendum. In vitae ultricies ex. In sit amet nulla
+            ipsum. Pellentesque mi lacus, eleifend sed sapien eget, interdum feugiat sapien.</p>
+    </article>
+</main>
 
-.my-photo img {
-    max-width: 64px;
-    border-radius: 50%;
-}
-
-details {
-    margin-bottom: 15px;
-}
-
-summary {
-    font-weight: bold;
-}
-
-details > div {
-    margin-left: 22px;
-    margin-top: 10px;
-}
-
-blockquote {
-    position: relative;
-    margin: 0;
-    padding: 5px 35px;
-    font-style: italic;
-    font-family: serif;
-    max-width: 400px;
-}
-
-blockquote::before, blockquote::after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 50px;
-    color: green;
-    content: '"';
-}
-
-blockquote::after {
-    left: auto;
-    top: auto;
-    right: 0;
-    bottom: 0;
-}
-
-blockquote .author {
-    text-align: right;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    margin-left: calc(25% + 15px);
-    width: 100%;
-    background: #fff;
-}
+<footer>
+    <p>&copy; Daniel Papiński 2019 - <a href="mailto:poczta-Danio0@onet.pl">Napisz do mnie!</a></p>
+</footer>
+</body>
+</html>
