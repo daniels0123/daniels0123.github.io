@@ -1,0 +1,35 @@
+
+html{
+font-family: 'Verdana';
+}
+header ,footer{
+	background-color: #4682B4;
+	text-align: center;
+	padding : 20px;
+	color : white;
+	font-size: 120%
+}
+header ,main{ 
+display: flex
+}
+
+aside ,article{
+	background-color: #40E0D0;
+	height :500 px;
+}
+
+aside{
+	width: 60%;
+}
+
+article{
+	width: 40%;
+}
+
+img{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000080;
+  padding: 5px;
+  margin: 10px;
+}

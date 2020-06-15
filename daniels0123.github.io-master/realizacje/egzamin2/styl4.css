@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+div, main, article, section, footer, header, aside {
+  box-sizing: border-box;
+}
+
+.two-columns, footer {
+  display: flex;
+}
+
+.left, .right {
+  color: white;
+  background-color: rgb(255, 127, 80);
+  height: 410px;
+  width: 50%;
+}
+
+header, main {
+  background-color: rgb(220, 220, 220);
+  padding: 20px;
+  text-align: center;
+}
+
+footer .left, footer .right {
+  background-color: rgb(255, 127, 80);
+  color: white;
+  height: 100px;
+}
+
+table, td {
+  border: 1px solid rgb(255, 127, 80);
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
