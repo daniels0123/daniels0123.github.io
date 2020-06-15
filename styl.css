@@ -116,3 +116,32 @@ footer {
     width: 100%;
     background: #fff;
 }
+
+.lista-realizacji {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.realizacja {
+	width: 30%;
+	text-align: center;
+}
+
+.realizacja img {
+	width: 100%;
+}
+
+.realizacja h4 {
+	margin: 5px 0;
+}
+
+.realizacja a {
+	color: green;
+	text-decoration: none;
+}
+
+.realizacja a:hover {
+	color: blue;
+	text-decoration: underline;
+}
