@@ -1,0 +1,28 @@
+body, html {
+ font-size: 'Helvetica', sans-serif;
+}
+
+header ,body {
+display:flex
+}
+
+left, article{
+	background-color :  rgb(130,69,85);
+	color: white;
+	 width: 30%;
+	 height: 200px;
+	text-align: center;
+}
+
+right , aside{
+	background-color :  rgb(130,69,85);
+	color: white;
+	 width: 70%;
+	 height: 200px;
+	text-align: center;
+}
+border{
+ border: 1px solid rgb(130, 69, 85);
+ padding: 10px
+}
+    
