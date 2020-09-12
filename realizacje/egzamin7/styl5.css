@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Tahoma';
+}
+
+header {
+    display: flex;
+}
+
+.lewy, .srodkowy, .prawy {
+    background-color: RosyBrown;
+    color: white;
+    width: 30%;
+    height: 200px;
+}
+
+.srodkowy {
+    width: 40%;
+}
+
+main {
+    padding: 50px;
+    background-color: Wheat;
+}
+
+footer {
+    color: white;
+    background-color: RosyBrown;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    border: 2px solid DarkRed;
+    background-color: Salmon;
+    color: DarkRed;
+    padding: 20px;
+    line-height: 200px;
+}

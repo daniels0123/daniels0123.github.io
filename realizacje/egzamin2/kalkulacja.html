@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Nasza stacja paliw</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="styl4.css">
+</head>
+<body>
+  <header>
+    <h2>Witamy na stacji paliw</h2>
+  </header>
+
+  <section class="two-columns">
+    <aside class="left">
+      <a href="index.html"><img src="home.png" alt="Home"/></a>
+      <br/>
+      <a href="kalkulacja.html"><img src="znak.png" alt="kalkulacja"/></a>
+    </aside>
+
+    <aside class="right">
+      <img src="samochod.jpg" alt="grafika: samochod"/>
+    </aside>
+  </section>
+
+  <main>
+    <article>
+      <h2>Oblicz, ile litrów musisz zatankować</h2>
+
+      <label for="dystans">dystans do przejechania w km</label>
+      <br/>
+      <input type="numeric" min="1" id="dystans"/>
+      <br/>
+
+      <label for="spalanie">spalanie samochodu w l/100km</label>
+      <br/>
+      <input type="numeric" min="0" id="spalanie"/>
+      <br/>
+
+      <button type="button" name="oblicz">Oblicz</button>
+
+    </article>
+  </main>
+
+  <footer>
+    <section class="left">
+      <p>Stronę opracował: PESEL</p>
+    </section>
+
+    <section class="right">
+      <a href="kwerendy.txt">Tu pobierzesz zapytania</a>
+    </section>
+  </footer>
+</body>
+</html>
