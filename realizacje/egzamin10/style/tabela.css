@@ -1,0 +1,9 @@
+table {
+margin: auto;
+border: 1px solid white;
+}
+th, td {
+padding: 5px 10px;
+color: white;
+font: 16px Arial;
+}
