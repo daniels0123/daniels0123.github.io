@@ -1,0 +1,50 @@
+body{
+	margin:0;
+}
+
+.wiersz {
+	width: 100%;
+	display: flex;
+	padding: 5px 15px;
+	box-sizing: border-box;
+	color:white;
+}
+
+.wiersz.Naglowek {
+	height:24vh;
+	background-color: green;
+	text-align: center;
+}
+
+.wiersz.Naglowek h2 {
+	width:100%;
+}
+
+.wiersz.Gora {
+	justify-content:flex-end;
+	height:24vh;
+}
+
+.wiersz.Srodek {
+	justify-content:center;
+	height:24vh;
+}
+
+.wiersz.Dol {
+	justify-content:flex-start;
+	height:24vh;
+}
+
+.blok {
+	padding:14px;
+	width:33.333%;
+	background-color: green;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+	  height:4vh;
+}
