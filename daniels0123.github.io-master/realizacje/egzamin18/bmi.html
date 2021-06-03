@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" href="styl3.css">
+	<title>Twoje BMI</title>
+	<script src="skrypt.js"></script>
+</head>
+<body>
+	<div class="logo">
+		<img src="wzor.png" alt="">
+	</div>
+	<div class="baner">
+		<h1>Oblicz swoje BMI</h1>
+	</div>
+	<div class="main">
+		<table>
+			<tr>
+				<th>Interpretacja BMI</th>
+				<th>Wartość minimalna</th>
+				<th>Wartość maksymalna</th>
+			</tr>
+			<tr>
+				<td>niedowaga</td>
+				<td>0</td>
+				<td>18</td>
+			</tr>
+			<tr>
+				<td>waga prawidłowa</td>
+				<td>19</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>nadwaga</td>
+				<td>26</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>otyłość</td>
+				<td>31</td>
+				<td>100</td>
+			</tr>
+		</table>
+	</div>
+	<div class="left">
+		<h2>Podaj wagę i wzrost</h2>
+		<div class="form">
+			<p>Waga:
+			<input id="waga" type="number" min=1>
+			</p>
+			<p>Wzrost w cm:
+			<input id="wzrost" type="number" min=1>
+			</p>
+			<button onclick="oblicz()">Oblicz i zapamiętaj wynik</button>
+			<p id="dane"></p>
+			<p id="wynik"></p>
+		</div>
+	</div>
+	<div class="right">
+		<img src="rys1.png" alt="ćwiczenia">
+	</div>
+	<footer>
+		<p>Autor: 00000000</p>
+	</footer>
+</body>
+</html>

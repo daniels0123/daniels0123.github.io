@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="skrypt.js"></script>
+    <title>Fabryka żelków</title>
+</head>
+
+<body>
+    <div id="gl">
+        <a href="index.html"><img src="cukierki2.png" alt="logo fabryki"></a>
+    </div>
+    <div id="gp">
+        <a href="zamowienie.html" id="odnosnik">Zamówienie</a>
+    </div>
+    <div id="baner">
+        <h2>Zamów nasz produkt</h2>
+    </div>
+    <div id="l">
+        <h1>Oferta</h1>
+        <table>
+            <tr>
+                <td>Kształty</td>
+                <td>Kolory</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li>miś</li>
+                        <li>żabka</li>
+                        <li>serce</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>czerwony</li>
+                        <li>niebieski</li>
+                        <li>żółty</li>
+                        <li>inny</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="p">
+        <p>Podaj numer kształtu</p>
+        <input type="number" id="ksztalt">
+        <p>skomponuj swój kolor, podaj RGB: </p>
+        <label>R:<input type="number" id="R" min="0" max="255"></label>
+        <label>G:<input type="number" id="G" min="0" max="255"></label>
+        <label>B:<input type="number" id="B" min="0" max="255"></label><br>
+        <button onclick=zamowienie()>Zamów</button>
+        <p id="zelek">Wybrany kształt</p>
+        <button id="kolor">Wybrany kolor</button>
+    </div>
+    <footer>
+        <p>Autor strony: PESEL</p>
+    </footer> 
+</body>
+
+</html>
