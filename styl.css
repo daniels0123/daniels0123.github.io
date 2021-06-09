@@ -44,6 +44,7 @@ nav a:hover {
 main {
     padding-left: calc(25% + 15px);
     padding-right: 15px;
+    padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -112,6 +113,7 @@ blockquote .author {
 footer {
     position: fixed;
     bottom: 0;
+    height: 50px;
     margin-left: calc(25% + 15px);
     width: 100%;
     background: #fff;
@@ -145,4 +147,29 @@ footer {
 .realizacja a:hover {
 	color: blue;
 	text-decoration: underline;
+}
+
+.grid-item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid-item-wide {
+  width: 400px;
+  height: 400px;
+}
+
+.grid-item-wider {
+  width: 600px;
+  height: 600px;
+}
+
+.grid-item img {
+  flex-shrink: 0;
+  height: 100%;
+  cursor: pointer;
 }
